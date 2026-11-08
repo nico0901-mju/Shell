@@ -20,10 +20,10 @@ vi 사용 시, vi 실행 후
 ```
 #!/bin/bash
 
-echo “--- History Save Program ---”
+echo "--- History Save Program ---"
 history > commands.txt
-echo “Save Complete!”
-echo “--- Saved history ---”
+echo "Save Complete!"
+echo "--- Saved history ---"
 cat commands.txt
 ```
 
